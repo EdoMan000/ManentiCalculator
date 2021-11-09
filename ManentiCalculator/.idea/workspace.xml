@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Manenti_Calculator.zip" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -90,6 +90,7 @@
       <workItem from="1635425797057" duration="1495000" />
       <workItem from="1635427384012" duration="66000" />
       <workItem from="1635427662966" duration="156000" />
+      <workItem from="1636466614765" duration="76000" />
     </task>
     <servers />
   </component>
