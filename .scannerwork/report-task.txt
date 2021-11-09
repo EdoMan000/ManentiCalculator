@@ -1,0 +1,7 @@
+organization=edoman000
+projectKey=EdoMan000_ManentiCalculator
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.24709
+dashboardUrl=https://sonarcloud.io/dashboard?id=EdoMan000_ManentiCalculator
+ceTaskId=AX0FDjuksRwM_fx8OPF4
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX0FDjuksRwM_fx8OPF4

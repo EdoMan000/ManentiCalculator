@@ -60,198 +60,70 @@ public class Calculator extends Application{
         button0.setScaleY(2.2);
         button0.setLayoutX(100);
         button0.setLayoutY(425);
-        button0.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10);
-
-            }else{
-                pow++;
-            }
-            text = text + "0";
-            label0.setText(text);
-        });
+        button0.setOnAction(event -> ButtonActions(0));
 
         button1 = new Button("1");
         button1.setScaleX(2.2);
         button1.setScaleY(2.2);
         button1.setLayoutX(45);
         button1.setLayoutY(245);
-        button1.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 1;
-
-            }else{
-                num1 = num1 + (float)(1*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "1";
-            label0.setText(text);
-        });
+        button1.setOnAction(event -> ButtonActions(1));
 
         button2 = new Button("2");
         button2.setScaleX(2.2);
         button2.setScaleY(2.2);
         button2.setLayoutX(100);
         button2.setLayoutY(245);
-        button2.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 2;
-
-            }else{
-                num1 = num1 + (float)(2*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "2";
-            label0.setText(text);
-        });
+        button2.setOnAction(event -> ButtonActions(2));
 
         button3 = new Button("3");
         button3.setScaleX(2.2);
         button3.setScaleY(2.2);
         button3.setLayoutX(155);
         button3.setLayoutY(245);
-        button3.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 3;
-
-            }else{
-                num1 = num1 + (float)(3*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "3";
-            label0.setText(text);
-        });
+        button3.setOnAction(event -> ButtonActions(3));
 
         button4 = new Button("4");
         button4.setScaleX(2.2);
         button4.setScaleY(2.2);
         button4.setLayoutX(45);
         button4.setLayoutY(305);
-        button4.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 4;
-
-            }else{
-                num1 = num1 + (float)(4*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "4";
-            label0.setText(text);
-        });
+        button4.setOnAction(event -> ButtonActions(4));
 
         button5 = new Button("5");
         button5.setScaleX(2.2);
         button5.setScaleY(2.2);
         button5.setLayoutX(100);
         button5.setLayoutY(305);
-        button5.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 5;
-
-            }else{
-                num1 = num1 + (float)(5*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "5";
-            label0.setText(text);
-        });
+        button5.setOnAction(event -> ButtonActions(5));
 
         button6 = new Button("6");
         button6.setScaleX(2.2);
         button6.setScaleY(2.2);
         button6.setLayoutX(155);
         button6.setLayoutY(305);
-        button6.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 6;
-
-            }else{
-                num1 = num1 + (float)(6*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "6";
-            label0.setText(text);
-        });
+        button6.setOnAction(event -> ButtonActions(6));
 
         button7 = new Button("7");
         button7.setScaleX(2.2);
         button7.setScaleY(2.2);
         button7.setLayoutX(45);
         button7.setLayoutY(365);
-        button7.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 7;
-
-            }else{
-                num1 = num1 + (float)(7*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "7";
-            label0.setText(text);
-        });
+        button7.setOnAction(event -> ButtonActions(7));
 
         button8 = new Button("8");
         button8.setScaleX(2.2);
         button8.setScaleY(2.2);
         button8.setLayoutX(100);
         button8.setLayoutY(365);
-        button8.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 8;
-            }else{
-                num1 = num1 + (float)(8*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "8";
-            label0.setText(text);
-        });
+        button8.setOnAction(event -> ButtonActions(8));
 
         button9 = new Button("9");
         button9.setScaleX(2.2);
         button9.setScaleY(2.2);
         button9.setLayoutX(155);
         button9.setLayoutY(365);
-        button9.setOnAction(event -> {
-            if(op==4){
-                buttonCan.fire();
-            }
-            if(dot==0){
-                num1 = (num1 * 10) + 9;
-
-            }else{
-                num1 = num1 + (float)(9*Math.pow(10,-pow));
-                pow++;
-            }
-            text = text + "9";
-            label0.setText(text);
-        });
+        button9.setOnAction(event -> ButtonActions(9));
 
         buttonPlu = new Button("+");
         buttonPlu.setScaleX(2.2);
@@ -437,6 +309,21 @@ public class Calculator extends Application{
                 button9,buttonPlu,buttonMin,buttonMul,buttonDiv,buttonEqu,buttonCan,buttonNDS,buttonNGT,buttonDot);
         stage.show();
         buttonNDS.fire();
+    }
+
+    private void ButtonActions(int num){
+        if(op==4){
+            buttonCan.fire();
+        }
+        if(dot==0){
+            num1 = (num1 * 10) + num;
+
+        }else{
+            num1 = num1 + (float)(num*Math.pow(10,-pow));
+            pow++;
+        }
+        text = text + num;
+        label0.setText(text);
     }
 
     private void ButtonOperations() {

@@ -1,0 +1,2 @@
+ManentiCalculator :$#'
+ "!	%&B2.https://github.com/EdoMan000/ManentiCalculatorB51https://travis-ci.org/EdoMan000/ManentiCalculatorB95https://github.com/EdoMan000/ManentiCalculator/issuesB2.https://github.com/EdoMan000/ManentiCalculatorREdoMan000_ManentiCalculator
