@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WeTrain/trunk/WeTrain" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RunManager" selected="Application.Calculator">
@@ -94,7 +94,7 @@
       <workItem from="1636466614765" duration="76000" />
       <workItem from="1636467185451" duration="4000" />
       <workItem from="1636467531327" duration="587000" />
-      <workItem from="1636468274691" duration="707000" />
+      <workItem from="1636468274691" duration="1019000" />
     </task>
     <servers />
   </component>
