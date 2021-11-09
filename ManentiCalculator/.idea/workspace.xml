@@ -36,6 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -92,7 +93,7 @@
       <workItem from="1635427662966" duration="156000" />
       <workItem from="1636466614765" duration="76000" />
       <workItem from="1636467185451" duration="4000" />
-      <workItem from="1636467531327" duration="388000" />
+      <workItem from="1636467531327" duration="587000" />
     </task>
     <servers />
   </component>
