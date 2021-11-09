@@ -262,45 +262,10 @@ public class Calculator extends Application{
         buttonNDS.setStyle("-fx-background-color: Orange");
         buttonNDS.setOnAction(event -> {
             if(i==1){
-                buttonNDS.setText("☼");
-                root.setStyle("-fx-background-color: Black");
-                label0.setStyle("-fx-text-fill: white");
-                button0.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button1.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button2.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button3.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button4.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button5.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button6.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button7.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button8.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                button9.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                buttonPlu.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                buttonMin.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                buttonMul.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                buttonDiv.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                buttonNGT.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
-                buttonDot.setStyle("-fx-background-color: Black"+";-fx-text-fill: white");
+                shift("☼", "Black", "white", root);
+
             }else{
-                buttonNDS.setText("☽");
-                root.setStyle("-fx-background-color: white");
-                label0.setStyle("-fx-text-fill: black");
-                button0.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button1.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button2.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button3.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button4.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button5.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button6.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button7.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button8.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                button9.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                buttonPlu.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                buttonMin.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                buttonMul.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                buttonDiv.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                buttonNGT.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
-                buttonDot.setStyle("-fx-background-color: white"+";-fx-text-fill: black");
+                shift("☽","white","Black",root);
             }
             i=(i+1)%2;
         });
@@ -309,6 +274,28 @@ public class Calculator extends Application{
                 button9,buttonPlu,buttonMin,buttonMul,buttonDiv,buttonEqu,buttonCan,buttonNDS,buttonNGT,buttonDot);
         stage.show();
         buttonNDS.fire();
+    }
+
+    private void shift(String s, String col1, String col2, Pane root) {
+        buttonNDS.setText(s);
+        root.setStyle("-fx-background-color: "+ col1);
+        label0.setStyle("-fx-text-fill: "+ col2);
+        button0.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button1.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button2.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button3.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button4.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button5.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button6.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button7.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button8.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        button9.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        buttonPlu.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        buttonMin.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        buttonMul.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        buttonDiv.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        buttonNGT.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
+        buttonDot.setStyle("-fx-background-color: "+col1+";-fx-text-fill: "+col2);
     }
 
     private void ButtonActions(int num){

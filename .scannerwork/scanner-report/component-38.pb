@@ -1,1 +1,1 @@
-& 2javaXÎhrNManentiCalculator/src/main/java/com/example/manenti_calculator/Calculator.java
+& 2javaXÝhrNManentiCalculator/src/main/java/com/example/manenti_calculator/Calculator.java
